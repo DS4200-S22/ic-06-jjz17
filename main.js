@@ -10,5 +10,22 @@ Modified: 12/06/21
     // You will need to call this function when Button 1 is clicked
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
-    console.log("Button 1 was clicked"); 
+    console.log("Button 1 was clicked");
+    let rand = Math.random() * 100;
+    console.log(rand);
+    document.getElementById("random_num").innerHTML = rand.toString();
+}
+
+function button2Clicked() {
+    console.log("Button 2 was clicked")
+
+    let color = document.getElementById("circle").getAttribute("fill")
+    console.log(color)
+    
+    if (color === "green") {
+        document.getElementById("circle").setAttribute("fill", "blue")
+    }
+    else {
+        document.getElementById("circle").setAttribute("fill", "green")
+    }
 }
