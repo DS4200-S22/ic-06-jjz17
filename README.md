@@ -15,7 +15,7 @@ The purpose of this assignment is to start learning how to use JavaScript to add
 
 1. Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
-1. Add an **external** stylesheet to the index.html file inclided in this repo. Use the stylesheet to make all font on your webpage Arial. 
+1. Add an **external** stylesheet to the index.html file included in this repo. Use the stylesheet to make all font on your webpage Arial. 
 
 1. A JavaScript file (main.js) was included in your repo. Add this file to your index.html file as an **external** script file. All of your JavaScript programming should be contained in this file ([JavaScript Where To](https://www.w3schools.com/js/js_whereto.asp)).  
 
